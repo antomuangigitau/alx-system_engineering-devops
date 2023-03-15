@@ -1,2 +1,2 @@
 #!/bin/bash
-tail iacta | tail -1 | yy | p >> iacta
+tail -n 1 iacta | yy | p >> iacta
